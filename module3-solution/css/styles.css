@@ -14,7 +14,7 @@ h2 {
     background-color: aqua;
 }
 
-.box {
+section {
     background-color: aqua;
     margin: 8px;
 }
@@ -24,7 +24,7 @@ h2 {
 }
 
 #nav-list li {
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 #nav-list a {
@@ -36,4 +36,8 @@ h2 {
 
 #nav-list a:hover {
     background-color: azure;
+}
+
+#nav-list a:active {
+    box-shadow:  1px 1px 1px azure;
 }
